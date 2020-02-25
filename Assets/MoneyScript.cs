@@ -19,10 +19,13 @@ public class MoneyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        number = string.Format("{0:0,0}", balance);
+        number = string.Format("{0:#,##0}", balance);
         money.text = "$" + number;
+    }
 
-        if (balance < 1000000000000)
+    public void getMoney()
+    {
+        if (balance < 1000000000)
         {
             balance++;
         }
