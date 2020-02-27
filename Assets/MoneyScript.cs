@@ -24,7 +24,13 @@ public class MoneyScript : MonoBehaviour
 
         if (balance < 1000000000000)
         {
-            balance++;
+            if (!PauseMenu.GameIsPaused)
+            {
+                balance++;
+            }
         }
+
+        
+
     }
 }

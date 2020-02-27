@@ -23,9 +23,17 @@ public class YearScript : MonoBehaviour
 
         minuteCounter++;
 
-        if(minuteCounter % 3600 == 0 && year < 2120)
+        if (minuteCounter % 3600 == 0 && year < 2120)
         {
-            year++;
+            if (!PauseMenu.GameIsPaused)
+            {
+                year++;
+            }
+                
         }
+        //if (year => 2120)
+        //{
+            //GameObject.Find("endgame").GetComponent<GameOverScript>().show();       //kallar på funktion(show) i annat Script (GameOverScript)
+        //}
     }
 }
