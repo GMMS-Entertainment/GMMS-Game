@@ -19,15 +19,19 @@ public class EarthScript : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
-            touchPosWorld = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
-            Vector2 touchPosWorld2D = new Vector2(touchPosWorld.x, touchPosWorld.y);
-
-            RaycastHit2D hitInformation = Physics2D.Raycast(touchPosWorld2D, Camera.main.transform.forward);
-
-            if (hitInformation.collider != null)
+            if (!PauseMenu.GameIsPaused)
             {
-                rotate = false;
+                touchPosWorld = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+                Vector2 touchPosWorld2D = new Vector2(touchPosWorld.x, touchPosWorld.y);
+
+                RaycastHit2D hitInformation = Physics2D.Raycast(touchPosWorld2D, Camera.main.transform.forward);
+
+                if (hitInformation.collider != null)
+                {
+                    rotate = false;
+                }
             }
+          
         }
         else
         {
@@ -36,7 +40,10 @@ public class EarthScript : MonoBehaviour
 
         if(rotate)
         {
-            transform.Rotate(0, 0, 2 * Time.deltaTime);
+            if (!PauseMenu.GameIsPaused)
+            {
+                transform.Rotate(0, 0, 2 * Time.deltaTime);
+            }
         }
     }
 }
