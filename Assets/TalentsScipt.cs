@@ -5,14 +5,24 @@ using UnityEngine;
 public class TalentsScipt : MonoBehaviour
 {
     public GameObject Talents;
-    public Animator AniTalents;
+    public Animator Anim;
 
+    void Start()
+    {
+        Anim = GetComponent<Animator>();
+    }
+
+    void Update()
+    {
+        
+    }
     public void OpenTalents() //Öppnar talents 
     {
         if (Talents != null) 
         {
             bool isActive = Talents.activeSelf;
             Talents.SetActive(!isActive);
+            Anim.Play("Talents_End");
         }
     }
 }
