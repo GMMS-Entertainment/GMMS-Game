@@ -22,7 +22,6 @@ public class TalentsScipt : MonoBehaviour
         {
             bool isActive = Talents.activeSelf;
             Talents.SetActive(!isActive);
-            Anim.Play("Talents_End");
         }
     }
 }
