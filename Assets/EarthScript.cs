@@ -41,6 +41,6 @@ public class EarthScript : MonoBehaviour
                 GameObject.Find("money").GetComponent<MoneyScript>().getMoney();
             }
         }
-        transform.Rotate(0, 0, 2190 * Time.deltaTime);
+        transform.Rotate(0, 0, 2 * Time.deltaTime);
     }
 }
