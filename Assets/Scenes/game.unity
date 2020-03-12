@@ -1738,6 +1738,66 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0792dc289f8445643bfe2e5b467f33ba, type: 3}
+--- !u!1 &738109333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5452855832723819697, guid: 0792dc289f8445643bfe2e5b467f33ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 7444815734891475830}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &738109334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738109333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 50322316}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: b71ac6f0a8344c6468995a6c659ade39, type: 3}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &739658195 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6162845266830735482, guid: 0792dc289f8445643bfe2e5b467f33ba,
@@ -1981,6 +2041,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d63dfb9fe20dd5468be81ea9d6b5f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &890650956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2295690548528375594, guid: 0792dc289f8445643bfe2e5b467f33ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 7444815734891475830}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &890650957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890650956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71ac6f0a8344c6468995a6c659ade39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Talents: {fileID: 0}
+  Anim: {fileID: 0}
+  talent1Learnt: 0
 --- !u!224 &925328112 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6162845266830735482, guid: 0792dc289f8445643bfe2e5b467f33ba,
@@ -4267,6 +4348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Talents: {fileID: 224581040}
   Anim: {fileID: 0}
+  talent1Learnt: 0
 --- !u!114 &2140139984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4375,6 +4457,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1135584361}
     m_Modifications:
+    - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11500000, guid: b71ac6f0a8344c6468995a6c659ade39,
+        type: 3}
+    - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
+        type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5452855832723819697, guid: 0792dc289f8445643bfe2e5b467f33ba,
         type: 3}
       propertyPath: m_Name

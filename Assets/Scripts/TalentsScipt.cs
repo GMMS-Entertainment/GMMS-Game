@@ -6,6 +6,7 @@ public class TalentsScipt : MonoBehaviour
 {
     public GameObject Talents;
     public Animator Anim;
+    public bool talent1Learnt = false;
 
     void Start()
     {
@@ -24,4 +25,11 @@ public class TalentsScipt : MonoBehaviour
             Talents.SetActive(!isActive);
         }
     }
+
+    public void SelectTalent1() //
+    {
+        //Console.WriteLine("Talent Spent");
+        talent1Learnt = true;
+    }
+
 }
