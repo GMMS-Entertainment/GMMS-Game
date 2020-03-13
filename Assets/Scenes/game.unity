@@ -1787,12 +1787,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: b71ac6f0a8344c6468995a6c659ade39, type: 3}
-        m_MethodName: 
+      - m_Target: {fileID: 1457948746}
+        m_MethodName: SelectTalent1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3152,6 +3152,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0792dc289f8445643bfe2e5b467f33ba, type: 3}
+--- !u!1 &1457948745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1457948747}
+  - component: {fileID: 1457948746}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1457948746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457948745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71ac6f0a8344c6468995a6c659ade39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Talents: {fileID: 0}
+  Anim: {fileID: 0}
+  talent1Learnt: 0
+--- !u!4 &1457948747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457948745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3754333, y: -5.5868845, z: 4554.9663}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1466243336 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6162845266830735482, guid: 0792dc289f8445643bfe2e5b467f33ba,
@@ -4460,7 +4506,7 @@ PrefabInstance:
     - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
         type: 3}
@@ -4475,19 +4521,18 @@ PrefabInstance:
     - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: SelectTalent1
       objectReference: {fileID: 0}
     - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 11500000, guid: b71ac6f0a8344c6468995a6c659ade39,
-        type: 3}
+      objectReference: {fileID: 1457948746}
     - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
         type: 3}
       propertyPath: m_Interactable
@@ -4507,6 +4552,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Navigation.m_Mode
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679699569739471385, guid: 0792dc289f8445643bfe2e5b467f33ba,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: TalentsScipt.SelectTalent1
       objectReference: {fileID: 0}
     - target: {fileID: 5452855832723819697, guid: 0792dc289f8445643bfe2e5b467f33ba,
         type: 3}

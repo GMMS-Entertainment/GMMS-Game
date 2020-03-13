@@ -28,8 +28,8 @@ public class TalentsScipt : MonoBehaviour
 
     public void SelectTalent1() //
     {
-        //Console.WriteLine("Talent Spent");
         talent1Learnt = true;
+        Debug.Log("OK");
     }
 
 }
