@@ -7,6 +7,8 @@ public class EarthScript : MonoBehaviour
     Vector3 touchPosWorld;
     Vector3 mousePosWorld;
     public GameObject money;
+    public GameObject athmosphere;
+    public float opacity;
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +16,10 @@ public class EarthScript : MonoBehaviour
         if (!money)
         {
             money = GameObject.Find("money");
+        }
+        if (!athmosphere)
+        {
+            athmosphere = GameObject.Find("earth_athmosphere");
         }
     }
 
@@ -46,5 +52,6 @@ public class EarthScript : MonoBehaviour
             }
         }
         transform.Rotate(0, 0, 2 * Time.deltaTime);
+        athmosphere.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, opacity);
     }
 }

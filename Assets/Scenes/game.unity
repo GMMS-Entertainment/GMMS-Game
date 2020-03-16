@@ -203,10 +203,10 @@ Transform:
   m_GameObject: {fileID: 45985975}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.158194, y: 0.158194, z: 0.158194}
+  m_LocalScale: {x: 25.31104, y: 25.31104, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 889768106}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &50322316 stripped
 MonoBehaviour:
@@ -585,7 +585,7 @@ RectTransform:
   - {fileID: 1135584361}
   - {fileID: 493136064}
   m_Father: {fileID: 889768106}
-  m_RootOrder: 2
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -1094,10 +1094,10 @@ Transform:
   m_GameObject: {fileID: 332339001}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.15819399, y: 0.15819399, z: 0.15819399}
+  m_LocalScale: {x: 25.311039, y: 25.311039, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 889768106}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &433508440
 PrefabInstance:
@@ -1546,7 +1546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 565936592}
   - component: {fileID: 565936593}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: shop_icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1561,11 +1561,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565936591}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -300, y: -700, z: -14400}
-  m_LocalScale: {x: 550, y: 550, z: 160}
+  m_LocalPosition: {x: -300, y: -700, z: 0}
+  m_LocalScale: {x: 550, y: 550, z: 1}
   m_Children: []
   m_Father: {fileID: 889768106}
-  m_RootOrder: 1
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &565936593
 SpriteRenderer:
@@ -2189,16 +2189,19 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 332339003}
+  - {fileID: 45985977}
+  - {fileID: 1900725048}
+  - {fileID: 1139826078}
+  - {fileID: 1660517756}
+  - {fileID: 1712148982}
   - {fileID: 1226129136}
   - {fileID: 565936592}
   - {fileID: 224581041}
-  - {fileID: 1660517756}
-  - {fileID: 1712148982}
-  - {fileID: 2140139982}
-  - {fileID: 1139826078}
   - {fileID: 1820990221}
+  - {fileID: 2140139982}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2362,7 +2365,7 @@ Transform:
   m_GameObject: {fileID: 948220163}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 75, y: 0, z: 0}
-  m_LocalScale: {x: 550, y: 550, z: 160}
+  m_LocalScale: {x: 550, y: 550, z: 1}
   m_Children: []
   m_Father: {fileID: 1660517756}
   m_RootOrder: 0
@@ -2562,7 +2565,7 @@ Transform:
   m_GameObject: {fileID: 1115604764}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 75, y: 0, z: 0}
-  m_LocalScale: {x: 550, y: 550, z: 0}
+  m_LocalScale: {x: 550, y: 550, z: 1}
   m_Children: []
   m_Father: {fileID: 1712148982}
   m_RootOrder: 0
@@ -2768,7 +2771,7 @@ RectTransform:
   - {fileID: 301057598}
   - {fileID: 1699421332}
   m_Father: {fileID: 889768106}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2948,7 +2951,7 @@ Transform:
   m_LocalScale: {x: 550, y: 550, z: 0}
   m_Children: []
   m_Father: {fileID: 889768106}
-  m_RootOrder: 0
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1226129137
 SpriteRenderer:
@@ -3604,7 +3607,7 @@ RectTransform:
   m_Children:
   - {fileID: 948220164}
   m_Father: {fileID: 889768106}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4011,7 +4014,7 @@ RectTransform:
   m_Children:
   - {fileID: 1115604765}
   m_Father: {fileID: 889768106}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4148,6 +4151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fa14f21423cae64f9dd174a7cd66758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  balance: 0
 --- !u!1001 &1759323475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4277,7 +4281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1820990221}
   - component: {fileID: 1820990220}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Talents_BK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4342,11 +4346,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820990219}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -840, z: 1}
-  m_LocalScale: {x: 339.58432, y: 48.959427, z: 160}
+  m_LocalPosition: {x: 0, y: -840, z: 0}
+  m_LocalScale: {x: 339.58432, y: 48.959427, z: 1}
   m_Children: []
   m_Father: {fileID: 889768106}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1833598445 stripped
 RectTransform:
@@ -4432,9 +4436,9 @@ Transform:
   m_GameObject: {fileID: 1900725046}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.158194, y: 0.158194, z: 0.158194}
+  m_LocalScale: {x: 25.31104, y: 25.31104, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 889768106}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1900725049
@@ -4450,6 +4454,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   money: {fileID: 1712148981}
+  athmosphere: {fileID: 45985975}
+  opacity: 0.3
 --- !u!58 &1900725050
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4713,7 +4719,7 @@ RectTransform:
   m_Children:
   - {fileID: 1684897988}
   m_Father: {fileID: 889768106}
-  m_RootOrder: 5
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
